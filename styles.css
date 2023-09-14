@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Merriweather, sans-serif;
+  line-height: 1.6;
+}
+
+header, nav, main {
+  padding: 10px;
+}
+header {
+
+  text-align: center;
+}
+nav {
+text-align: center;
+border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+nav a.active {
+  color: rgba(51, 51, 51, 0.5); /* Faded color for active navigation link */
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Specific page styles */
+
+
+#home .flex-container {
+  margin-top: 1.4em;
+  display: flex;
+  align-items: flex-start; /* Vertically align items */
+  margin-bottom: 1.4em;
+ 
+}
+#home .image-container {
+  margin-right: 0px;
+}
+#home img {
+  width: 200px;
+  height: auto;
+  
+}
+
+#home .text {
+ margin-left: 20px;
+ margin-right: 20px;
+ width: 300px;
+ 
+}
+
+#research summary {
+  cursor: pointer;
+}
+#research li::marker {
+  content: ""; /* Remove the marker (bullet point) */
+}
+
+
+#research p {
+  margin-left: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+#research w {
+  margin-left: 0px;
+  font-style: normal; 
+  font-weight: bold; 
+  font-size: 1.1em; 
+  
+}
+
+#research a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#research a:hover {
+  text-decoration: underline; 
+  color: rgba(90, 89, 89, 0.5);
+}
+#research summary {
+  margin-left: 0px;
+}
+#research details {
+  font-style: normal;
+}
+#research h {
+
+  margin-left: 0px;
+  font-style: normal; 
+  font-weight: bold; 
+  font-size: 2em;
+}
+
+#home .texty {
+ margin-left: 20px;
+ margin-right: 20px;
+}
+#research .citation {
+  margin-top: 1em;
+}
+
+
+
+.main-content {
+  width: 75%; /* Adjust the width accordingly */
+  padding: 20px;
+}
+
+
+
+
+
